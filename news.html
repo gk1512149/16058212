@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>杭电欢迎你</title>
+     <script src="js/jquery.min.js"></script>
+    <script src="js/banner.js"></script>
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <!--[if lt IE9]>
+    <script src="http://cdn.static.runoob.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            $(".section-ico").click(function () {
+                $("#section-left").fadeToggle();
+            });
+        });
+        window.onload = function () {
+            //图片自动轮播
+            babyzone.scroll(8, "banner_list", "list", "banner_info");
+        }
+    </script>
+</head>
+<body>
+    <!--顶部内容-->
+    <header class="navbar-header">
+        <h1>杭电</h1>
+        <ul>
+            <li style="width:255px;margin-right:60px;">
+                <input type="search" class="navbar-control" style="width:200px;margin-right:0px;" />
+                <input type="submit" class="navbar-button" value="检索" />
+            </li>
+            <li><a href="index.html">校园门户</a></li>
+            <li><a href="person.html">我的信息</a></li>
+            <li><a href="detail.html">杭电详情</a></li>
+        </ul>
+    </header>
+    <!--轮播图-->
+    <div id="banner">
+        <div id="banner_bg" style="display: none">
+        </div>
+        <!--标题背景-->
+        <a href="#" id="banner_info" style="display: none"></a>
+        <!--标题-->
+        <ul id="list" style="display: none">
+        </ul>
+        <!--按钮-->
+        <div id="banner_list">
+            <a href="#">
+                <img src="images/banner1.png" title="banner1" alt="banner1" /></a> <a href="#">
+                    <img src="images/banner2.png" title="banner2" alt="banner2" /></a> <a href="#">
+                        <img src="images/banner3.png" title="banner3" alt="banner3" /></a> <a href="#">
+                            <img src="images/banner4.png" title="banner4" alt="banner4" /></a>
+            <a href="#">
+                <img src="images/banner5.png" title="banner5" alt="banner5" /></a> <a href="#">
+                    <img src="images/banner6.png" title="banner6" alt="banner6" /></a> <a href="#">
+                        <img src="images/banner7.png" title="banner7" alt="banner7" /></a> <a href="#">
+                            <img src="images/banner8.png" title="banner8" alt="banner8" /></a>
+        </div>
+    </div>
+    <!--导航菜单-->
+    <nav class="navbar ">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+             <li><a href="science.html">科学研究</a></li>
+             <li><a href="study.html">教育教学</a></li>
+            <li><a href="#">校园概况</a></li>
+            <li><a href="#">学院设置</a></li>
+            <li><a href="#">管理机构</a></li>
+            <li><a href="#">人才师资</a></li>
+            <li><a href="#">招生就业</a></li>
+            <li><a href="#">合作交流</a></li>
+            <li><a href="#">校园文化</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <aside class="aside" style="width:100%;">
+            <h2>新闻资讯<a href="#" class="aside-title">→ 新闻网</a></h2>
+            <ul>
+                <li><em>&rsaquo;</em>&nbsp;“共和国的脊梁——名校宣传工...<span>05-22</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“青春献礼十九大，不忘初心跟党走”：...<span>05-19</span></li>
+                <li><em>&rsaquo;</em>&nbsp;我校召开2017年毕业生就业工作推进会<span>05-18</span></li>
+                <li><em>&rsaquo;</em>&nbsp;第六届读书•科普节开幕 <span>05-16</span></li>
+                <li><em>&rsaquo;</em>&nbsp;强化责任、狠抓落实：我校专题部署党建...<span>05-12</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“共和国的脊梁——名校宣传工...<span>05-22</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“青春献礼十九大，不忘初心跟党走”：...<span>05-19</span></li>
+                <li><em>&rsaquo;</em>&nbsp;我校召开2017年毕业生就业工作推进会<span>05-18</span></li>
+                <li><em>&rsaquo;</em>&nbsp;第六届读书•科普节开幕 <span>05-16</span></li>
+                <li><em>&rsaquo;</em>&nbsp;强化责任、狠抓落实：我校专题部署党建...<span>05-12</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“共和国的脊梁——名校宣传工...<span>05-22</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“青春献礼十九大，不忘初心跟党走”：...<span>05-19</span></li>
+                <li><em>&rsaquo;</em>&nbsp;我校召开2017年毕业生就业工作推进会<span>05-18</span></li>
+                <li><em>&rsaquo;</em>&nbsp;第六届读书•科普节开幕 <span>05-16</span></li>
+                <li><em>&rsaquo;</em>&nbsp;强化责任、狠抓落实：我校专题部署党建...<span>05-12</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“共和国的脊梁——名校宣传工...<span>05-22</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“青春献礼十九大，不忘初心跟党走”：...<span>05-19</span></li>
+                <li><em>&rsaquo;</em>&nbsp;我校召开2017年毕业生就业工作推进会<span>05-18</span></li>
+                <li><em>&rsaquo;</em>&nbsp;第六届读书•科普节开幕 <span>05-16</span></li>
+                <li><em>&rsaquo;</em>&nbsp;强化责任、狠抓落实：我校专题部署党建...<span>05-12</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“共和国的脊梁——名校宣传工...<span>05-22</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“青春献礼十九大，不忘初心跟党走”：...<span>05-19</span></li>
+                <li><em>&rsaquo;</em>&nbsp;我校召开2017年毕业生就业工作推进会<span>05-18</span></li>
+                <li><em>&rsaquo;</em>&nbsp;第六届读书•科普节开幕 <span>05-16</span></li>
+                <li><em>&rsaquo;</em>&nbsp;强化责任、狠抓落实：我校专题部署党建...<span>05-12</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“共和国的脊梁——名校宣传工...<span>05-22</span></li>
+                <li><em>&rsaquo;</em>&nbsp;“青春献礼十九大，不忘初心跟党走”：...<span>05-19</span></li>
+                <li><em>&rsaquo;</em>&nbsp;我校召开2017年毕业生就业工作推进会<span>05-18</span></li>
+                <li><em>&rsaquo;</em>&nbsp;第六届读书•科普节开幕 <span>05-16</span></li>
+                <li><em>&rsaquo;</em>&nbsp;强化责任、狠抓落实：我校专题部署党建...<span>05-12</span></li>
+                <li style="margin-top:0px;">
+                    <pre style="text-align:center;"><em style="color:red;">1</em> 2  3  4  5  6  ...  21  22</pre>
+                </li>
+            </ul>
+        </aside>
+
+    </div>
+     <footer class="footer">
+        <p>版权所有©杭州电子科技大学 浙ICP 备16532892号 浙公网安备 50163295476251号</p>
+    </footer>
+</body>
+</html>
